@@ -31,7 +31,7 @@ export function CreateHotel({ setHotelList }) {
   return (
     <div className="create-hotel-container">
       <div className="title-container">
-        <h2>Otel Adi</h2>
+        <h2>OTEL ADI</h2>
       </div>
       <div className="input-container">
         <input

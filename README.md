@@ -49,7 +49,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Intalls the dependencies of the project.
+Installs the dependencies of the project.
 
 ### `npm start`
 
