@@ -1,0 +1,17 @@
+.hotel-add-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .hotel-add-link {
+    text-decoration: none;
+    .hotel-add-icon {
+      font-size: 60px;
+      color: blue;
+      margin-right: 10px;
+    }
+  }
+  .hotel-add-title {
+    text-transform: uppercase;
+    margin: 0;
+  }
+}

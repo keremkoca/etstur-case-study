@@ -1,0 +1,36 @@
+.btn-inner-container {
+  display: flex;
+  flex-direction: row;
+}
+.btn-icon-container {
+  margin-right: 10px;
+  .btn-icon {
+    font-size: 30px;
+  }
+}
+.create-btn-confirm {
+  color: white;
+  background-color: royalblue;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 20px 50px 20px 50px;
+}
+.create-btn-succes {
+  color: white;
+  background-color: rgb(5, 201, 5);
+  font-weight: 700;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  height: 63px;
+  padding: 15px 25px 15px 25px;
+  .btn-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

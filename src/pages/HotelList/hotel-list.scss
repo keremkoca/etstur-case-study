@@ -1,0 +1,11 @@
+.hotel-list-page-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  .hotel-list-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+  }
+}

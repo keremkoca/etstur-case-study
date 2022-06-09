@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  border-radius: 5px;
+  padding: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 7px 0px 7px 0px;
+  .inner-container {
+    width: 100%;
+    display: flex;
+    height: 120px;
+    margin: 7px;
+    .img-container {
+      margin-right: 5px;
+      img {
+        height: 120px;
+        width: 120px;
+        border-radius: 5px;
+      }
+    }
+    .hotel-info-container {
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 8px;
+      margin-right: 18px;
+      p {
+        margin: 0;
+        margin-left: 5px;
+      }
+      .hotel-info {
+        margin-bottom: 16px;
+        .hotel-title {
+          font-size: 25px;
+          margin-bottom: 5px;
+          text-transform: capitalize;
+        }
+        .hotel-score {
+          width: 60%;
+          border-radius: 5px;
+          color: rgb(60, 187, 138);
+          background-color: rgba(174, 193, 252, 0.091);
+          font-size: 18px;
+          padding: 3px;
+        }
+      }
+
+      .btn-container {
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+      }
+    }
+  }
+  .open-delete-btn-container {
+    position: relative;
+  }
+  .open-delete-btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: -15;
+    right: -15;
+    .open-delete-btn-icon {
+      font-size: 35px;
+      color: red;
+    }
+  }
+}

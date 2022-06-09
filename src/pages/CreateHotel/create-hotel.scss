@@ -1,0 +1,38 @@
+.create-hotel-container {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  .title-container {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+
+    .input-area {
+      font-size: 30px;
+      text-indent: 15px;
+      outline: none;
+      border: 2px solid rgba(171, 171, 171, 0.488);
+      border-radius: 5px;
+      padding: 30px 0px 30px 0px;
+      width: 100%;
+    }
+  }
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    .return-btn {
+      color: white;
+      background-color: rgb(201, 34, 5);
+      font-weight: 700;
+      font-size: 25px;
+      border: none;
+      border-radius: 10px;
+      text-transform: uppercase;
+      padding: 15px 25px 15px 25px;
+    }
+  }
+}

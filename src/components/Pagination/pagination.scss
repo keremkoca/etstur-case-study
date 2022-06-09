@@ -1,0 +1,19 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .pagination-number-container {
+    display: flex;
+    .pagination-number {
+      padding: 5px;
+      font-size: 20px;
+    }
+  }
+  .pagination-nav-btn {
+    background-color: transparent;
+    border: none;
+    .nav-icon {
+      font-size: 40px;
+    }
+  }
+}
