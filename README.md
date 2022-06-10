@@ -32,10 +32,10 @@ Etstur Front-End Developer Case Study built by using React.js and Sass.
 
 #### Packages
 
-[react-icons] (https://react-icons.github.io/react-icons/)
-[react-modal] (https://www.npmjs.com/package/react-modal)
-[react-router-dom] (https://reactrouter.com/)
-[react-select] (https://react-select.com/home)
+[react-icons](https://react-icons.github.io/react-icons/)
+[react-modal](https://www.npmjs.com/package/react-modal)
+[react-router-dom](https://reactrouter.com/)
+[react-select](https://react-select.com/home)
 
 ## Setup
 
